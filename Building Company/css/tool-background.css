@@ -1,0 +1,691 @@
+.tool-background-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 750px;
+    background: url(/img/tool-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1-tool-background {
+    color: white;
+    font-family: "Arial";
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-top: 80px;
+    margin-top: 100px;
+    opacity: 0;
+}
+
+.h1-tool-background.h1-tool-back-animation {
+    opacity: 1;
+    margin-top: 0px;
+    transition: 0.5s;
+}
+
+.h2-tool-background {
+    color: white;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 1100px;
+    padding-top: 40px;
+    padding-left: 150px;
+    margin-top: 100px;
+    opacity: 0;
+}
+
+.h2-tool-background.h2-tool-back-animation {
+    opacity: 1;
+    margin-top: 0px;
+    transition: 0.5s;
+}
+
+.tool-background-box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.tool-background-1 {
+    width: 420px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: url(/img/Leadership\ Message.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 20px;
+    background-size: 120%;
+    transition: 0.5s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+.tool-background-1.tool-back-img-1 {
+    opacity: 1;
+    margin-top: 0px;
+    transition: 0.5s;
+}
+
+.tool-background-1:hover {
+    background: url(/img/Leadership\ Message\ blue.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+.tool-background-2 {
+    width: 420px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: url(/img/Mission\ &\ Vision.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 20px;
+    background-size: 120%;
+    transition: 0.5s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+.tool-background-2.tool-back-img-2 {
+    opacity: 1;
+    margin-top: 0px;
+    transition: 0.5s;
+}
+
+.tool-background-2:hover {
+    background: url(/img/Mission\ &\ Vision\ blue.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+.tool-background-3 {
+    width: 420px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: url(/img/People.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 20px;
+    background-size: 120%;
+    transition: 0.5s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+.tool-background-3.tool-back-img-3 {
+    opacity: 1;
+    margin-top: 0px;
+    transition: 0.5s;
+}
+
+.tool-background-3:hover {
+    background: url(/img/People\ blue.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 399.9px) {
+    .h1-tool-background {
+        padding-left: 15px;
+        font-size: 22px;
+    }
+
+    .h2-tool-background {
+        padding-left: 15px;
+        font-size: 13px;
+        max-width: 350px;
+    }
+
+    .tool-background-1 {
+        width: 320px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-1:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-2 {
+        width: 320px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-2:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-3 {
+        width: 320px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-3:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-box {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .tool-background-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 499.9px) {
+    .h1-tool-background {
+        padding-left: 10px;
+        font-size: 25px;
+    }
+
+    .h2-tool-background {
+        padding-left: 10px;
+        font-size: 14px;
+        max-width: 450px;
+    }
+
+    .tool-background-1 {
+        width: 360px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-1:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-2 {
+        width: 360px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-2:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-3 {
+        width: 360px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-3:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-box {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .tool-background-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599.9px) {
+    .h1-tool-background {
+        padding-left: 30px;
+        font-size: 25px;
+    }
+
+    .h2-tool-background {
+        padding-left: 30px;
+        font-size: 14px;
+        max-width: 450px;
+    }
+
+    .tool-background-1 {
+        width: 400px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-1:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-2 {
+        width: 400px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-2:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-3 {
+        width: 400px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-3:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-box {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .tool-background-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 699.9px) {
+    .h1-tool-background {
+        padding-left: 40px;
+        font-size: 27px;
+    }
+
+    .h2-tool-background {
+        padding-left: 40px;
+        font-size: 15px;
+        max-width: 500px;
+    }
+
+    .tool-background-1 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-1:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-2 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-2:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-3 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-3:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-box {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .tool-background-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 799.9px) {
+    .h1-tool-background {
+        padding-left: 40px;
+        font-size: 27px;
+    }
+
+    .h2-tool-background {
+        padding-left: 40px;
+        font-size: 15px;
+        max-width: 600px;
+    }
+
+    .tool-background-1 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-1:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-2 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-2:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-3 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-3:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-box {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .tool-background-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 899.9px) {
+    .h1-tool-background {
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    .h2-tool-background {
+        padding-left: 50px;
+        font-size: 16px;
+        max-width: 700px;
+    }
+
+    .tool-background-1 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-1:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-2 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-2:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-3 {
+        width: 450px;
+        height: 188px;
+        background-size: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tool-background-3:hover {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    .tool-background-box {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .tool-background-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 959.9px) {
+    .h1-tool-background {
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    .h2-tool-background {
+        padding-left: 50px;
+        font-size: 16px;
+        max-width: 800px;
+    }
+
+    .tool-background-1 {
+        width: 350px;
+        height: 210px;
+        background-size: 140%;
+    }
+
+    .tool-background-2 {
+        width: 350px;
+        height: 210px;
+        background-size: 140%;
+    }
+
+    .tool-background-3 {
+        width: 350px;
+        height: 210px;
+        background-size: 140%;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1039.9px) {
+    .h1-tool-background {
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    .h2-tool-background {
+        padding-left: 50px;
+        font-size: 16px;
+        max-width: 800px;
+    }
+
+    .tool-background-1 {
+        width: 350px;
+        height: 210px;
+    }
+
+    .tool-background-2 {
+        width: 350px;
+        height: 210px;
+    }
+
+    .tool-background-3 {
+        width: 350px;
+        height: 210px;
+    }
+}
+
+@media (min-width: 1040px) and (max-width: 1100.9px) {
+    .h1-tool-background {
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    .h2-tool-background {
+        padding-left: 50px;
+        font-size: 16px;
+        max-width: 800px;
+    }
+
+    .tool-background-1 {
+        width: 380px;
+        height: 230px;
+    }
+
+    .tool-background-2 {
+        width: 380px;
+        height: 230px;
+    }
+
+    .tool-background-3 {
+        width: 380px;
+        height: 230px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1200.9px) {
+    .h1-tool-background {
+        padding-left: 50px;
+        font-size: 34px;
+    }
+
+    .h2-tool-background {
+        padding-left: 50px;
+        font-size: 17px;
+    }
+
+    .tool-background-1 {
+        width: 380px;
+        height: 230px;
+    }
+
+    .tool-background-2 {
+        width: 380px;
+        height: 230px;
+    }
+
+    .tool-background-3 {
+        width: 380px;
+        height: 230px;
+    }
+}
